@@ -1,0 +1,201 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Temp K\Projects\Visual Basic\WAB-BR\Package-III
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\Program Files\Microsoft Office\Office10\MSOUTL.OLB=
+C:\Program Files\Microsoft Office\Office\MSOUTL9.OLB=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\Mscomctl.ocx=
+C:\WINNT\system32\msflxgrd.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+E:\Temp K\Projects\Visual Basic\WAB-BR\Outlook-BakRes.exe=Yes
+C:\WINNT\system32\Msvbvm60.dll=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\asycfilt.dll=Yes
+C:\WINNT\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\Mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Office\Office\MSOUTL9.OLB=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\Temp K\Projects\Visual Basic\WAB-BR\Outlook-BakRes.exe=$(AppPath)
+C:\WINNT\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office10\MSOUTL.OLB=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\Mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Office\Office\MSOUTL9.OLB=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\Temp K\Projects\Visual Basic\WAB-BR\Outlook-BakRes.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Arun Nair's Outlook Contacts Salvager 1.6
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Arun Nair's Outlook Contacts Salvager 1.1
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Arun Nair's Outlook Contacts Salvager 1.1]
+Icon1=Outlook-BakRes.EXE
+Title1=Arun Nair's Outlook Contacts Salvager 1.1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\Temp K\Projects\Visual Basic\WAB-BR\Package-III
+ProjectFolder=E:\Temp K\Projects\Visual Basic\WAB-BR
+ServerSideCab=
+File1=E:\Temp K\Projects\Visual Basic\WAB-BR\Package-III\setup.exe
+File2=E:\Temp K\Projects\Visual Basic\WAB-BR\Package-III\Setup.Lst
+File3=E:\Temp K\Projects\Visual Basic\WAB-BR\Package-III\Outlook-BakRes.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Temp K\Projects\Visual Basic\WAB-BR\Package V
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+VB6STKIT.DLL=D:\Temp K\Projects\Visual Basic\WAB-BR\Package-II\Support\VB6STKIT.DLL
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\Program Files\Microsoft Office\Office\MSOUTL9.OLB=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSCOMCTL.OCX=
+C:\WINNT\system32\msflxgrd.ocx=
+
+[Package|Standard Setup Package 2|Files Added]
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+D:\Temp K\Projects\Visual Basic\WAB-BR\Outlook-BakRes.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\Program Files\Microsoft Office\Office\MSOUTL9.OLB=Yes
+C:\WINNT\system32\msflxgrd.ocx=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\Temp K\Projects\Visual Basic\WAB-BR\Package-II\Support\VB6STKIT.DLL=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+D:\Temp K\Projects\Visual Basic\WAB-BR\Outlook-BakRes.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSOUTL9.OLB=$(WinSysPath)
+C:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\Temp K\Projects\Visual Basic\WAB-BR\Package-II\Support\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+D:\Temp K\Projects\Visual Basic\WAB-BR\Outlook-BakRes.exe=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Outlook-BakRes
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Outlook-BakRes
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Outlook-BakRes]
+Icon1=Outlook-BakRes.exe
+Title1=Outlook-BakRes
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=D:\Temp K\Projects\Visual Basic\WAB-BR\Package V
+ProjectFolder=D:\Temp K\Projects\Visual Basic\WAB-BR
+ServerSideCab=
+File1=D:\Temp K\Projects\Visual Basic\WAB-BR\Package V\setup.exe
+File2=D:\Temp K\Projects\Visual Basic\WAB-BR\Package V\Setup.Lst
+File3=D:\Temp K\Projects\Visual Basic\WAB-BR\Package V\Outlook-BakRes.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
